@@ -5,6 +5,7 @@
     }
     @import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,700;0,800;1,200&display=swap');
+    
     header{
     height: 80px;
     width: 100%;
@@ -41,7 +42,7 @@
     height: 100vh;
     width: 100%;
     background-image: url(../images/inicio.mp4);
-    background-position:left ;
+    background-position:left;
     background-size:cover;
     }
     .main2{
@@ -327,6 +328,28 @@
     box-shadow: 0 0 15px #5fe30d87;
     z-index: 10;
     }
+
+
+
+/*keyframes animaciones*/
+@keyframes efecto{
+    0% {
+    border-radius: 50%;
+    }
+    10%{
+    border-radius: 50%;
+    }
+    50%{
+    text-shadow: yellow;
+    }
+    100%{
+    background-color:greenyellow;
+    }
+    }
+
+/*querrys*/
+
+
     @media only screen and (max-width:1290px){
     .video{
     margin-left: 220px;
@@ -394,6 +417,10 @@
     background-size:cover;
     background-position:left;
     }
+    .barra{
+        float:none;
+    }
+    
     @media only screen and (max-width:600px){
     .video{
     width: 65vh;
@@ -441,19 +468,107 @@
     width:250px;
     height: 230px;
     }
+    
     }
-    /*keyframes animaciones*/
-    @keyframes efecto{
-    0% {
-    border-radius: 50%;
+    @media only screen and (max-width:300px){
+        header{
+            display: flex;
+            height: 150px;
+            width: 100%;
+            color: rgba(8, 216, 8, 0.908);
+            font-size:16px;
+            font-family:'Anton', sans-serif;
+            font-size: 20px;
+            margin: 15px;
+            text-transform: capitalize;
+            
+            
+            }
+            
+            .call{
+                color:#fff;
+                font-family:'Anton', sans-serif;
+                letter-spacing: 0.5px;
+                float: left;
+                background-color: rgba(0, 0, 0, 0.319);
+                padding: 5px;
+                text-shadow: 0 0 5px #ffff;
+                border: 2px solid rgb(64, 220, 21);
+                margin:20px;
+                width: 80%;
+                background-color: #020202;
+                background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='12' viewBox='0 0 20 12'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='charlie-brown' fill='%23310a6f' fill-opacity='0.4'%3E%3Cpath d='M9.8 12L0 2.2V.8l10 10 10-10v1.4L10.2 12h-.4zm-4 0L0 6.2V4.8L7.2 12H5.8zm8.4 0L20 6.2V4.8L12.8 12h1.4zM9.8 0l.2.2.2-.2h-.4zm-4 0L10 4.2 14.2 0h-1.4L10 2.8 7.2 0H5.8z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+                
+
     }
-    10%{
-    border-radius: 50%;
-    }
-    50%{
-    text-shadow: yellow;
-    }
-    100%{
-    background-color:greenyellow;
-    }
-    }
+    h1{
+        color: rgb(64, 220, 21);
+        }
+        .call p{
+        font-size: 20px;
+        margin: 5px;
+        margin-bottom: 70px;
+        }
+        .call a{
+        background-color:rgb(64, 220, 21);
+        color:#ffff;
+        text-decoration: none;
+        padding: 5px 25px;
+        margin:50px;
+        
+        }
+        .call a:hover{
+        background-color: #222;
+        text-shadow: 2px solid green;
+        border:2px solid green; ;
+        }
+        .sec{
+            display:inline;
+        }
+       .nleft{
+        height: 0px;
+        width: 0px;
+        
+        background-size: cover;
+        background-position: center;
+        padding: 30px;
+        margin: 30px;
+        margin-top: 2px;
+        border-radius: 100%;
+       }
+       .nright{
+        display: inline;
+        margin: 20px;
+        }
+        .nright p{
+            margin: 20px;
+        }
+        
+            
+            .sec_sec{
+                display: inline;
+            }
+            .nleft2{
+                
+                height: 0px;
+                width: 0px;
+                background-image: url(../images/amek.jpg);
+                background-size: cover;
+                background-position: center;
+                padding: 30px;
+                margin: 30px;
+                margin-top: 2px;
+                border-radius: 100%;
+                }
+                
+                .nright2 {
+                    display: inline;
+                    margin: 20px;
+                }
+                .nright2 p{
+                    margin: 20px;
+                }
+        
+       
+}
+    
