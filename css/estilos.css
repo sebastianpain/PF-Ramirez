@@ -394,6 +394,10 @@
     background-size:cover;
     background-position:left;
     }
+    .barra{
+        float:none;
+    }
+    
     @media only screen and (max-width:600px){
     .video{
     width: 65vh;
@@ -441,6 +445,7 @@
     width:250px;
     height: 230px;
     }
+    
     }
     /*keyframes animaciones*/
     @keyframes efecto{
