@@ -612,3 +612,9 @@ h1 {
 .nright2 p {
     margin: 20px;
 }
+.form{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    margin-right: 650px;
+}
