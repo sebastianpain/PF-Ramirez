@@ -163,8 +163,8 @@ footer {
 h2 {
     font-family: 'Anton', sans-serif;
     font-size: 40px;
-  
-    background-color: linear-gradient(to left, rgba(16, 142, 25, 0.419), yellow);
+    margin: 20px;
+    background-color: linear-gradient(to left, rgba(16, 142, 25, 0.419), yellow)!important;
 }
 
 .sec {
@@ -194,10 +194,9 @@ h2 {
     text-align: left;
 }
 
-.nright {
+.nright{
     height: 100%;
     width: 50%;
-    background-color: rgb(255, 255, 255);
     margin: 20px;
 }
 
@@ -537,7 +536,7 @@ a {
 }
 
 h1 {
-    color: rgb(64, 220, 21);
+    color: rgba(64, 220, 21, 0.366);
 }
 
 .call p {
@@ -612,5 +611,4 @@ h1 {
 
 .nright2 p {
     margin: 20px;
-}
 }
