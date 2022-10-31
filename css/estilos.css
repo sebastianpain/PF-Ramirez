@@ -164,7 +164,7 @@ h2 {
     font-family: 'Anton', sans-serif;
     font-size: 40px;
     margin: 20px;
-    background-color: linear-gradient(to left, rgba(16, 142, 25, 0.419), yellow)!important;
+    background-color: linear-gradient(to left, rgba(16, 142, 25, 0.419), yellow) !important;
 }
 
 .sec {
@@ -194,7 +194,7 @@ h2 {
     text-align: left;
 }
 
-.nright{
+.nright {
     height: 100%;
     width: 50%;
     margin: 20px;
@@ -477,6 +477,14 @@ a {
 }
 
 @media only screen and (max-width:600px) {
+    main {
+        height: 100vh;
+        width: 100%;
+        background-image: url(../images/inicio.mp4);
+        background-position: left;
+        background-size: cover;
+    }
+
     .video {
         width: 65vh;
         height: 450px;
@@ -612,12 +620,14 @@ h1 {
 .nright2 p {
     margin: 20px;
 }
-.form{
+
+.form {
     width: 200px;
     height: 200px;
     margin: 20px;
     margin-right: 650px;
 }
+
 .imagesContenedor {
     display: grid;
     height: 250px;
@@ -640,7 +650,7 @@ h1 {
     animation-iteration-count: 2;
     animation-timing-function: ease-in;
     animation-duration: 5s;
-   
+
 }
 
 .item1 {
