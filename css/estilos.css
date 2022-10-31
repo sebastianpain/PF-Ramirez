@@ -1,124 +1,139 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    }
-    @import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,700;0,800;1,200&display=swap');
-    
-    header{
-    height: 80px;
-    width: 100%;
-    color: rgba(8, 216, 8, 0.908);
-    font-size:24px;
-    font-family:'Anton', sans-serif;
-    padding: 20px;
-    text-transform: capitalize;
-    }
-    .logo{
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,700;0,800;1,200&display=swap');
+
+
+.navbar {
+    background-color: rgba(0, 128, 0, 0.368);
     float: left;
-    }
-    .logo span{
-    color: #222;
-    }
-    .barra{
+    width: 100%;
+    height: 100%;
+
+}
+
+.barra {
     float: right;
-    }
-    .barra ul{
+}
+
+.barra ul {
     list-style: none;
-    }
-    .barra ul li{
+}
+
+.barra ul li {
     display: inline-block;
-    }
-    .barra a{
+}
+
+.barra a {
     text-decoration: none;
     color: rgb(120, 224, 16);
-    }
-    .barra a:hover{
+}
+
+.barra a:hover {
     color: rgb(8, 216, 8);
     text-decoration: underline;
-    }
-    main{
+}
+
+main {
     height: 100vh;
     width: 100%;
     background-image: url(../images/inicio.mp4);
-    background-position:left;
-    background-size:cover;
-    }
-    .main2{
+    background-position: left;
+    background-size: cover;
+}
+
+.main2 {
     background-image: url(../images/polvo2.jpg);
-    }
-    .call{
-    color:#fff;
-    font-family:'Anton', sans-serif;
+}
+
+.call {
+    color: #fff;
+    font-family: 'Anton', sans-serif;
     letter-spacing: 0.5px;
     float: left;
     background-color: rgba(0, 0, 0, 0.319);
     padding: 20px;
     text-shadow: 0 0 5px #ffff;
     border: 2px solid rgb(64, 220, 21);
-    margin:30px;
+    margin: 30px;
     width: 60%;
     background-color: #020202;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='12' viewBox='0 0 20 12'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='charlie-brown' fill='%23310a6f' fill-opacity='0.4'%3E%3Cpath d='M9.8 12L0 2.2V.8l10 10 10-10v1.4L10.2 12h-.4zm-4 0L0 6.2V4.8L7.2 12H5.8zm8.4 0L20 6.2V4.8L12.8 12h1.4zM9.8 0l.2.2.2-.2h-.4zm-4 0L10 4.2 14.2 0h-1.4L10 2.8 7.2 0H5.8z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-    }
-    h1{
+}
+
+h1 {
     color: rgb(64, 220, 21);
-    }
-    .call p{
+}
+
+.call p {
     font-size: 20px;
     margin-bottom: 30px;
-    }
-    .call a{
-    background-color:rgb(64, 220, 21);
-    color:#ffff;
+}
+
+.call a {
+    background-color: rgb(64, 220, 21);
+    color: #ffff;
     text-decoration: none;
     padding: 10px 20px;
-    }
-    .call a:hover{
+}
+
+.call a:hover {
     background-color: #222;
     text-shadow: 2px solid green;
-    border:2px solid green; ;
-    }
-    /*index arriba / sobre nosotros abajo y servicios*/
-    .caja{
+    border: 2px solid green;
+    ;
+}
+
+/*index arriba / sobre nosotros abajo y servicios*/
+.caja {
     background-color: rgba(0, 0, 0, 0.129);
     margin: 2px;
     padding: 2px;
-    }
-    .caja p{
-    color:white;
-    }
-    table td{
+}
+
+.caja p {
+    color: white;
+}
+
+table td {
     width: 120px;
     height: 120px;
     color: rgb(0, 0, 0);
     margin-right: 110px;
     margin: 20px;
     text-align: center;
-    }
-    .tablecel{
+}
+
+.tablecel {
     margin-left: 625px;
-    }
-    .map__ubicacion {
+}
+
+.map__ubicacion {
     padding-left: 390px;
     padding-bottom: 200px;
-    }
-    .texto1{
+}
+
+.texto1 {
     color: rgb(255, 255, 255);
     margin: auto;
     padding: 1%;
-    }
-    .titulo2{
+}
+
+.titulo2 {
     color: rgb(64, 242, 9);
-    padding: 0%;
     margin: 20px;
-    }
-    .titulo2:hover{
-    color:red;
+}
+
+.titulo2:hover {
+    color: red;
     padding: 0%;
-    }
-    footer{
+}
+
+footer {
     color: rgb(64, 242, 9);
     background-color: rgb(0, 0, 0);
     text-align: center;
@@ -126,39 +141,40 @@
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
     padding: 20px;
-    }
-    .redes{
+}
+
+.redes {
     font-size: 50px;
     letter-spacing: 10px;
-    }
-    .redes a{
+}
+
+.redes a {
     color: #fff;
     align-content: space-evenly;
     padding: 10px;
     margin: 10px;
-    }
-    .redes a:hover{
-    color:rgb(64, 242, 9);
+}
+
+.redes a:hover {
+    color: rgb(64, 242, 9);
     text-shadow: 0 0 5px rgb(212, 206, 206);
-    }
-    h2{
+}
+
+h2 {
     font-family: 'Anton', sans-serif;
     font-size: 40px;
-    line-height: 0.99em;
-    width: calc(100% - 150px);
-    height: auto;
-    z-index: 5;
-    position: relative;
-    letter-spacing: -0.02em;
-    background-image: linear-gradient(to left,rgba(16, 142, 25, 0.419),yellow);
-    }
-    .sec{
+  
+    background-color: linear-gradient(to left, rgba(16, 142, 25, 0.419), yellow);
+}
+
+.sec {
     height: 550px;
     width: 100%;
     background-color: rgb(255, 255, 255);
     display: flex;
-    }
-    .nleft{
+}
+
+.nleft {
     height: 250px;
     width: 150px;
     background-image: url(../images/guitars.jpg);
@@ -168,32 +184,37 @@
     margin: 130px;
     margin-top: 20px;
     border-radius: 900%;
-    }
-    .nright h3{
+}
+
+.nright h3 {
     color: orange;
-    font-family:'Anton', sans-serif;
+    font-family: 'Anton', sans-serif;
     margin-bottom: 20px;
     margin: 1px;
-    text-align:left;
-    }
-    .nright{
+    text-align: left;
+}
+
+.nright {
     height: 100%;
     width: 50%;
     background-color: rgb(255, 255, 255);
-    margin:20px;
-    }
-    .nright p{
-    color: rgb(0, 0, 0);
-    text-align:left;
     margin: 20px;
-    }
-    .sec_sec{
+}
+
+.nright p {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    margin: 20px;
+}
+
+.sec_sec {
     height: 550px;
     width: 100%;
     background-color: rgb(255, 255, 255);
     display: flex;
-    }
-    .nleft2{
+}
+
+.nleft2 {
     height: 250px;
     width: 150px;
     background-image: url(../images/amek.jpg);
@@ -203,115 +224,132 @@
     margin: 130px;
     margin-top: 20px;
     border-radius: 900%;
-    }
-    .imagesnleft{
+}
+
+.imagesnleft {
     height: 900px;
     width: 100%vh;
     background-image: url(../images/studio.jpg);
-    background-size:cover;
-    }
-    .video{
-    background-size:cover;
-    width:100vh;
-    height:400px;
+    background-size: cover;
+}
+
+.video {
+    background-size: cover;
+    width: 100vh;
+    height: 400px;
     margin: 10px;
     margin-left: 350px;
-    }
-    /*galeria*/
-    .imagesContenedor{
+}
+
+/*galeria*/
+.imagesContenedor {
     display: grid;
     height: 100px;
     width: 100px;
     margin: 20px;
-    grid-template-columns:repeat(3 1fr);
+    grid-template-columns: repeat(3 1fr);
     grid-template-rows: 2fr;
     grid-template-areas:
-    "item1 item2 item3"
-    "item4 item5 item6";
+        "item1 item2 item3"
+        "item4 item5 item6";
     margin-left: 300px;
-    grid-gap:4px;
-    }
-    .item{
+    grid-gap: 4px;
+}
+
+.item {
     border: solid rgba(20, 205, 45, 0.499);
-    margin:2px;
+    margin: 2px;
     animation-name: efecto;
     animation-iteration-count: 2;
     animation-timing-function: ease-in;
     animation-duration: 5s;
-    }
-    .item1{
+}
+
+.item1 {
     grid-area: item1;
     background-image: url(../images/headphones.jpg);
     justify-content: left;
-    height:310px;
+    height: 310px;
     width: 300px;
-    background-size:cover;
-    }
-    .item2{
+    background-size: cover;
+}
+
+.item2 {
     grid-area: item2;
     background-image: url(../images/studio1.jpg);
     height: 310px;
     width: 300px;
-    background-size:cover;
-    }
-    .item3{
+    background-size: cover;
+}
+
+.item3 {
     grid-area: item3;
     background-image: url(../images/studio.jpg);
-    background-size:cover;
-    background-position:left;
+    background-size: cover;
+    background-position: left;
     height: 310px;
     width: 300px;
-    }
-    .item4{
+}
+
+.item4 {
     grid-area: item4;
     background-image: url(../images/oleada.mp4);
     height: 310px;
     width: 300px;
-    background-size:cover;
-    }
-    .item5{
+    background-size: cover;
+}
+
+.item5 {
     grid-area: item5;
     background-image: url(../images/yamaha.jpg);
     height: 310px;
     width: 300px;
-    background-size:cover;
-    }
-    .item6{
+    background-size: cover;
+}
+
+.item6 {
     grid-area: item6;
     background-image: url(../images/mic.jpg);
-    height:310px;
-    width:300px;
-    background-size:cover;
-    }
-    .fondog{
+    height: 310px;
+    width: 300px;
+    background-size: cover;
+}
+
+.fondog {
     background-image: url(../images/galaxy.jpg);
-    background-size:cover;
+    background-size: cover;
     width: 100%;
     height: 100vh;
-    }
-    .ira{
+}
+
+.ira {
     margin: 30px;
-    }
-    /*contacto*/
-    .fon3{
+}
+
+/*contacto*/
+.fon3 {
     background-image: url(../images/polvo.jpg);
     background-size: cover;
     height: 100vh;
-    }
-    .form{
-    width:200px;
-    height:300px;
-    margin:20px;
-    margin-left:700px;
-    }
-    .form label{
+}
+
+.form {
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+    margin-left: 700px;
+}
+
+.form label {
     color: rgb(60, 255, 0);
-    }
-    a{
-    color:green;
-    margin:20px
-    }
-    .subir{
+}
+
+a {
+    color: green;
+    margin: 20px
+}
+
+.subir {
     height: 45px;
     width: 30px;
     padding: 2%;
@@ -327,214 +365,252 @@
     border-radius: 12%;
     box-shadow: 0 0 15px #5fe30d87;
     z-index: 10;
-    }
+}
 
 
 
 /*keyframes animaciones*/
-@keyframes efecto{
+@keyframes efecto {
     0% {
-    border-radius: 50%;
+        border-radius: 50%;
     }
-    10%{
-    border-radius: 50%;
+
+    10% {
+        border-radius: 50%;
     }
-    50%{
-    text-shadow: yellow;
+
+    50% {
+        text-shadow: yellow;
     }
-    100%{
-    background-color:greenyellow;
+
+    100% {
+        background-color: greenyellow;
     }
-    }
+}
 
 /*querrys*/
 
 
-    @media only screen and (max-width:1290px){
-    .video{
-    margin-left: 220px;
+@media only screen and (max-width:1290px) {
+    .video {
+        margin-left: 220px;
     }
-    .caja p{
-    color:white;
-    margin: 20px;
+
+    .caja p {
+        color: white;
+        margin: 20px;
     }
+}
+
+@media only screen and (max-width:1024px) {
+    .video {
+        margin-left: 80px;
     }
-    @media only screen and (max-width:1024px){
-    .video{
-    margin-left:80px;
+
+    .tablecel {
+        margin-left: 300px;
     }
-    .tablecel{
-    margin-left: 300px;
+
+    .imagesContenedor {
+        margin-left: 40px;
+        width: 100px;
+        height: 100px;
     }
-    .imagesContenedor{
-    margin-left: 40px;
-    width: 100px;
-    height: 100px;
+
+    .form {
+        width: 200px;
+        height: 300px;
+        margin: 20px;
+        margin-left: 180px;
+        margin-top: 100px;
     }
-    .form{
-    width:200px;
-    height:300px;
-    margin:20px;
-    margin-left:180px;
-    margin-top: 100px;
+}
+
+@media only screen and (max-width:900px) {
+    .video {
+        margin-left: 20px;
     }
+
+    .nleft {
+        width: 60px;
+        height: 100px;
+        margin: 20px;
+        padding: 50px;
     }
-    @media only screen and (max-width:900px){
-    .video{
-    margin-left: 20px;
+
+    .nright {
+        margin: 20px;
     }
-    .nleft{
-    width: 60px;
-    height: 100px;
-    margin: 20px;
-    padding: 50px;
+
+    .nright p {
+        margin: 2px;
     }
-    .nright{
-    margin: 20px;
+
+    .sec {
+        margin-left: 2px;
     }
-    .nright p{
-    margin: 2px;
+
+    .nleft2 {
+        width: 60px;
+        height: 100px;
+        margin: 20px;
+        padding: 50px;
     }
-    .sec{
-    margin-left: 2px;
+
+    .nright2 {
+        margin: 20px;
     }
-    .nleft2{
-    width: 60px;
-    height: 100px;
-    margin: 20px;
-    padding: 50px;
+
+    .nright2 p {
+        margin: 1px;
     }
-    .nright2{
-    margin: 20px;
-    }
-    .nright2 p{
-    margin: 1px;
-    }
-    }
-    .imagesnleft{
+}
+
+.imagesnleft {
     width: 100%;
     height: 790px;
-    background-size:cover;
-    background-position:left;
+    background-size: cover;
+    background-position: left;
+}
+
+.barra {
+    float: none;
+}
+
+@media only screen and (max-width:600px) {
+    .video {
+        width: 65vh;
+        height: 450px;
+        margin: 2px;
+        background-position: cover;
     }
-    .barra{
-        float:none;
+
+    .tablecel {
+        margin-left: 100px;
     }
-    
-    @media only screen and (max-width:600px){
-    .video{
-    width: 65vh;
-    height: 450px;
-    margin: 2px;
-    background-position: cover;
+
+    .imagesContenedor {
+        margin-left: 20px;
+        grid-template-columns: repeat(2 1fr);
+        grid-template-rows: 2fr;
+        grid-template-areas:
+            "item1 item2"
+            "item3 item4"
+            "item5 item6";
     }
-    .tablecel{
-    margin-left: 100px;
+
+    .item {
+        border: solid rgba(20, 205, 45, 0.499);
+        margin: 15px;
     }
-    .imagesContenedor{
-    margin-left: 20px;
-    grid-template-columns:repeat(2 1fr);
-    grid-template-rows: 2fr;
-    grid-template-areas:
-    "item1 item2"
-    "item3 item4"
-    "item5 item6";
+
+    .item1 {
+        width: 250px;
+        height: 230px;
     }
-    .item{
-    border: solid rgba(20, 205, 45, 0.499);
-    margin:15px;
+
+    .item2 {
+        width: 250px;
+        height: 230px;
     }
-    .item1{
-    width: 250px;
-    height: 230px;
+
+    .item3 {
+        width: 250px;
+        height: 230px;
     }
-    .item2{
-    width:250px;
-    height: 230px;
+
+    .item4 {
+        width: 250px;
+        height: 230px;
     }
-    .item3{
-    width:250px;
-    height: 230px;
+
+    .item5 {
+        width: 250px;
+        height: 230px;
     }
-    .item4{
-    width:250px;
-    height: 230px;
+
+    .item6 {
+        width: 250px;
+        height: 230px;
     }
-    .item5{
-    width:250px;
-    height: 230px;
-    }
-    .item6{
-    width:250px;
-    height: 230px;
-    }
-    
-    }
-    h1{
-        color: rgb(64, 220, 21);
-        }
-        .call p{
-        font-size: 20px;
-        margin: 5px;
-        margin-bottom: 70px;
-        }
-        .call a{
-        background-color:rgb(64, 220, 21);
-        color:#ffff;
-        text-decoration: none;
-        padding: 5px 25px;
-        margin:50px;
-        
-        }
-        .call a:hover{
-        background-color: #222;
-        text-shadow: 2px solid green;
-        border:2px solid green; ;
-        }
-        .sec{
-            display:inline;
-        }
-       .nleft{
-        height: 0px;
-        width: 0px;
-        
-        background-size: cover;
-        background-position: center;
-        padding: 30px;
-        margin: 30px;
-        margin-top: 2px;
-        border-radius: 100%;
-       }
-       .nright{
-        display: inline;
-        margin: 20px;
-        }
-        .nright p{
-            margin: 20px;
-        }
-        
-            
-            .sec_sec{
-                display: inline;
-            }
-            .nleft2{
-                
-                height: 0px;
-                width: 0px;
-                background-image: url(../images/amek.jpg);
-                background-size: cover;
-                background-position: center;
-                padding: 30px;
-                margin: 30px;
-                margin-top: 2px;
-                border-radius: 100%;
-                }
-                
-                .nright2{
-                    display: inline;
-                    margin: 20px;
-                }
-                .nright2 p{
-                    margin: 20px;
-                }
-            }
+
+}
+
+h1 {
+    color: rgb(64, 220, 21);
+}
+
+.call p {
+    font-size: 20px;
+    margin: 5px;
+    margin-bottom: 70px;
+}
+
+.call a {
+    background-color: rgb(64, 220, 21);
+    color: #ffff;
+    text-decoration: none;
+    padding: 5px 25px;
+    margin: 50px;
+
+}
+
+.call a:hover {
+    background-color: #222;
+    text-shadow: 2px solid green;
+    border: 2px solid green;
+    ;
+}
+
+.sec {
+    display: inline;
+}
+
+.nleft {
+    height: 0px;
+    width: 0px;
+
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    margin: 30px;
+    margin-top: 2px;
+    border-radius: 100%;
+}
+
+.nright {
+    display: inline;
+    margin: 20px;
+}
+
+.nright p {
+    margin: 20px;
+}
+
+
+.sec_sec {
+    display: inline;
+}
+
+.nleft2 {
+
+    height: 0px;
+    width: 0px;
+    background-image: url(../images/amek.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    margin: 30px;
+    margin-top: 2px;
+    border-radius: 100%;
+}
+
+.nright2 {
+    display: inline;
+    margin: 20px;
+}
+
+.nright2 p {
+    margin: 20px;
+}
+}
