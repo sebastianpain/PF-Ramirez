@@ -753,16 +753,16 @@ margin-left: 70px;
         grid-area: item1;
         background-image: url(../images/headphones.jpg);
         justify-content: left;
-        height: 180px;
-        width: 180px;
+        height: $hitem;
+        width: $widthitem;
         background-size: cover;
     }
     
     .item2 {
         grid-area: item2;
         background-image: url(../images/studio1.jpg);
-        height: 180px;
-        width: 180px;
+        height: $hitem;
+        width: $widthitem;
         background-size: cover;
     }
     
@@ -771,31 +771,31 @@ margin-left: 70px;
         background-image: url(../images/studio.jpg);
         background-size: cover;
         background-position: left;
-        height: 180px;
-        width: 180px;
+        height: $hitem;
+        width: $widthitem;
     }
     
     .item4 {
         grid-area: item4;
         background-image: url(../images/oleada.mp4);
-        height: 180px;
-        width: 180px;
+        height: $hitem;
+        width: $widthitem;
         background-size: cover;
     }
     
     .item5 {
         grid-area: item5;
         background-image: url(../images/yamaha.jpg);
-        height: 180px;
-        width: 180px;
+        height: $hitem;
+        width: $widthitem;
         background-size: cover;
     }
     
     .item6 {
         grid-area: item6;
         background-image: url(../images/mic.jpg);
-        height: 180px;
-        width: 180px;
+        height: $hitem;
+        width: $widthitem;
         background-size: cover;
     }
     .call {
