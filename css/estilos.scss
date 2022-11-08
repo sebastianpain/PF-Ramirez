@@ -4,7 +4,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+@mixin medidas ($widthitem, $hitem){
+    height:$hitem;
+    width: $widthitem;
+}
 $color1:red;
 $color_botonup:rgba(238, 22, 22, 0.274);
 $color2: rgba(0, 128, 0, 0.368);
@@ -289,52 +292,47 @@ h2 {
 }
 
 .item1 {
+    @include medidas(170px, 170px);
     grid-area: item1;
     background-image: url(../images/headphones.jpg);
     justify-content: left;
-    height: 180px;
-    width: $widthitem;
     background-size: cover;
 }
 
 .item2 {
+    @include medidas(170px, 170px);
     grid-area: item2;
     background-image: url(../images/studio1.jpg);
-    height: 180px;
-    width: $widthitem;
     background-size: cover;
 }
 
 .item3 {
+    @include medidas(170px, 170px);
     grid-area: item3;
     background-image: url(../images/studio.jpg);
     background-size: cover;
     background-position: left;
-    height: 180px;
-    width: $widthitem;
+    
 }
 
 .item4 {
+    @include medidas(170px, 170px);
     grid-area: item4;
     background-image: url(../images/oleada.mp4);
-    height: 180px;
-    width: $widthitem;
     background-size: cover;
 }
 
 .item5 {
+    @include medidas(170px, 170px);
     grid-area: item5;
     background-image: url(../images/yamaha.jpg);
-    height: 180px;
-    width: $widthitem;
     background-size: cover;
 }
 
 .item6 {
+    @include medidas(170px, 170px);
     grid-area: item6;
     background-image: url(../images/mic.jpg);
-    height: 180px;
-    width: $widthitem;
     background-size: cover;
 }
 

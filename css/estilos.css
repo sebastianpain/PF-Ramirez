@@ -266,52 +266,52 @@ h2 {
 }
 
 .item1 {
+  height: 170px;
+  width: 170px;
   grid-area: item1;
   background-image: url(../images/headphones.jpg);
   justify-content: left;
-  height: 180px;
-  width: 170px;
   background-size: cover;
 }
 
 .item2 {
+  height: 170px;
+  width: 170px;
   grid-area: item2;
   background-image: url(../images/studio1.jpg);
-  height: 180px;
-  width: 170px;
   background-size: cover;
 }
 
 .item3 {
+  height: 170px;
+  width: 170px;
   grid-area: item3;
   background-image: url(../images/studio.jpg);
   background-size: cover;
   background-position: left;
-  height: 180px;
-  width: 170px;
 }
 
 .item4 {
+  height: 170px;
+  width: 170px;
   grid-area: item4;
   background-image: url(../images/oleada.mp4);
-  height: 180px;
-  width: 170px;
   background-size: cover;
 }
 
 .item5 {
+  height: 170px;
+  width: 170px;
   grid-area: item5;
   background-image: url(../images/yamaha.jpg);
-  height: 180px;
-  width: 170px;
   background-size: cover;
 }
 
 .item6 {
+  height: 170px;
+  width: 170px;
   grid-area: item6;
   background-image: url(../images/mic.jpg);
-  height: 180px;
-  width: 170px;
   background-size: cover;
 }
 
