@@ -34,12 +34,19 @@ $hitem:170px;
 
 .navbar {
     background-color: $color2;
-    float: left;
+    float:left;
     width: 100%;
     height: 100%;
 
 }
-
+.logonav{
+    width: 40px;
+    height: 40px;
+    margin: 12px;
+}
+.nav-link{
+    text-shadow: #fff;
+}
 .barra {
     float: right;
 }
@@ -98,7 +105,10 @@ main {
 h1 {
     color: $color3;
 }
-
+h5 {
+    color: $color3;
+    font-size: 16px;
+}
 .call p {
     font-size: 20px;
     margin-bottom: 30px;
@@ -121,7 +131,7 @@ h1 {
 /*index arriba / sobre nosotros abajo y servicios*/
 .caja {
 
-    margin: 2px;
+    
     padding: 2px;
 }
 
@@ -192,10 +202,19 @@ footer {
 }
 
 h2 {
+   
     font-family: $fontfamily1;
-    font-size: 30px;
+    font-size: 16px;
+    color:$color8;
     margin: 20px;
-    background-color: linear-gradient(to left, rgba(16, 142, 25, 0.419), $color5) !important;
+    
+   
+}
+h4{
+    color:$color2;
+    text-shadow: 0 0 35px $color3;
+    font-size: 16px;
+    
 }
 
 .sec {
@@ -344,19 +363,27 @@ h2 {
     background-size: cover;
     width: 100%;
     height: 100vh;
+    margin: 0;
 }
+
 
 .ira {
     margin: 30px;
 }
 
 /*contacto*/
+
 .fon3 {
     background-image: url(../images/polvo.jpg);
     background-size: cover;
     height: 100vh;
 }
-
+.mapa{
+    height: 600px;
+    width:600px;
+    margin-left: 500px;
+    margin-top:-500px;
+}
 .form {
     width: 200px;
     height: 300px;
@@ -427,12 +454,20 @@ a {
 
 
 
+
 @media only screen and (max-width:1024px) {
     .video {
         margin-left: 80px;
     }
 
-
+    .mapa {
+        height: 20px;
+        width: 20px;
+        
+        margin-bottom: 500px;
+        
+    
+    }
     .imagesContenedor {
         margin-left: 40px;
         width: 100px;
@@ -454,7 +489,15 @@ a {
     .video {
         margin-left: 20px;
     }
-
+    .mapa {
+        height: 30px;
+        width: 30px;
+        margin-left: 315px;
+        margin-top: -500px;
+        
+        
+    
+    }
     .nleft {
         width: 60px;
         height: 100px;
@@ -590,6 +633,7 @@ h1 {
     border: 2px solid $color4;
 
 }
+
 
 .sec {
     display: inline;
@@ -738,8 +782,10 @@ main {
 }
 
 .titulo2 {
-    padding: 2px;
+    margin:20px;
+    
 }
+
 
 @media only screen and (max-width:435px) {
     .item {
@@ -751,7 +797,7 @@ main {
         animation-duration: 5s;
 
     }
-
+ 
     .item1 {
         grid-area: item1;
         background-image: url(../images/headphones.jpg);
@@ -816,6 +862,7 @@ main {
         background-color: $color8;
         background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='12' viewBox='0 0 20 12'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='charlie-brown' fill='%23310a6f' fill-opacity='0.4'%3E%3Cpath d='M9.8 12L0 2.2V.8l10 10 10-10v1.4L10.2 12h-.4zm-4 0L0 6.2V4.8L7.2 12H5.8zm8.4 0L20 6.2V4.8L12.8 12h1.4zM9.8 0l.2.2.2-.2h-.4zm-4 0L10 4.2 14.2 0h-1.4L10 2.8 7.2 0H5.8z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
     }
+ 
 
     .form {
         width: 140px;
@@ -840,5 +887,11 @@ main {
         padding: 10px;
     }
 
+    
+        
+  
 
-}
+        
+        
+    
+    }
