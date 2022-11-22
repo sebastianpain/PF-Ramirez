@@ -921,8 +921,8 @@ a {
     background-size: cover;
   }
   .mapa {
-    margin-left: 40px;
-    margin-top: 300px;
+    margin-right: 120px;
+    margin-bottom: 310px;
   }
   .tablecel {
     margin-left: 70px;
@@ -1022,7 +1022,7 @@ a {
   }
   .mapa {
     margin-top: -620px;
-    margin-right: 100px;
+    margin-left: 35px;
   }
   .fon3 {
     width: 100%;
