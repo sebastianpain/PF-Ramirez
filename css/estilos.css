@@ -79,7 +79,7 @@ main {
   border: 2px solid rgb(64, 220, 21);
   margin: 30px;
   width: 60%;
-  background-color: #020202;
+  background-color: rgba(2, 2, 2, 0.5098039216);
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='12' viewBox='0 0 20 12'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='charlie-brown' fill='%23310a6f' fill-opacity='0.4'%3E%3Cpath d='M9.8 12L0 2.2V.8l10 10 10-10v1.4L10.2 12h-.4zm-4 0L0 6.2V4.8L7.2 12H5.8zm8.4 0L20 6.2V4.8L12.8 12h1.4zM9.8 0l.2.2.2-.2h-.4zm-4 0L10 4.2 14.2 0h-1.4L10 2.8 7.2 0H5.8z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 
@@ -102,7 +102,7 @@ h5 {
   width: 10px;
   color: white;
   margin: 10px;
-  padding: 10px 20px;
+  padding: 5px 20px;
 }
 
 .call a:hover {
@@ -573,8 +573,8 @@ a {
 }
 @media only screen and (max-width: 1172px) {
   .mapa {
-    margin-right: 200px;
-    margin-top: 400px;
+    margin-left: 350px;
+    margin-top: -200px;
   }
   .imagesContenedor {
     display: grid;
@@ -836,10 +836,15 @@ a {
   }
   .mapa {
     margin-top: -300px;
+    margin-left: 600px;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .mapa {
     margin-left: 300px;
   }
 }
-@media only screen and (max-width: 900px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   main {
     height: 100vh;
     width: 100%;
@@ -854,19 +859,34 @@ a {
     background-position: cover;
   }
   h1 {
-    color: rgba(64, 220, 21, 0.366);
+    color: rgb(64, 220, 21);
+  }
+  .call {
+    color: rgb(64, 220, 21);
+    font-family: "Anton", sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    float: left;
+    background-color: rgba(2, 2, 2, 0.5098039216);
+    padding: 20px;
+    text-shadow: 0 0 5px white;
+    border: 2px solid rgb(64, 220, 21);
+    margin: 18px;
+    background-color: #020202;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='12' viewBox='0 0 20 12'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='charlie-brown' fill='%23310a6f' fill-opacity='0.4'%3E%3Cpath d='M9.8 12L0 2.2V.8l10 10 10-10v1.4L10.2 12h-.4zm-4 0L0 6.2V4.8L7.2 12H5.8zm8.4 0L20 6.2V4.8L12.8 12h1.4zM9.8 0l.2.2.2-.2h-.4zm-4 0L10 4.2 14.2 0h-1.4L10 2.8 7.2 0H5.8z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
   }
   .call p {
     font-size: 20px;
     margin: 5px;
     margin-bottom: 70px;
+    color: white;
   }
   .call a {
-    background-color: green;
+    background-color: rgb(64, 220, 21);
     color: white;
     text-decoration: none;
-    padding: 5px 5px;
-    margin: 50px;
+    padding: 10px 10px;
+    margin-right: 50px;
   }
   .call a:hover {
     background-color: #222;
@@ -921,8 +941,8 @@ a {
     background-size: cover;
   }
   .mapa {
-    margin-right: 120px;
-    margin-bottom: 310px;
+    margin-top: -320px;
+    margin-left: 320px;
   }
   .tablecel {
     margin-left: 70px;
@@ -931,7 +951,7 @@ a {
     margin: 20px;
   }
 }
-@media only screen and (max-width: 900px) and (max-width: 320px) {
+@media only screen and (max-width: 320px) {
   .navbar {
     background-color: black;
     color: white;
@@ -972,32 +992,26 @@ a {
     margin-top: 150px;
     padding: 10px;
   }
-  .call {
-    color: rgb(64, 220, 21);
-    font-family: "Anton", sans-serif;
-    font-size: 16px;
-    letter-spacing: 0.5px;
-    float: left;
-    background-color: rgba(0, 0, 0, 0.319);
-    padding: 20px;
-    text-shadow: 0 0 5px white;
-    border: 2px solid rgb(64, 220, 21);
-    margin: 18px;
-    width: 280px;
-    height: 490px;
-    background-color: #020202;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='12' viewBox='0 0 20 12'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='charlie-brown' fill='%23310a6f' fill-opacity='0.4'%3E%3Cpath d='M9.8 12L0 2.2V.8l10 10 10-10v1.4L10.2 12h-.4zm-4 0L0 6.2V4.8L7.2 12H5.8zm8.4 0L20 6.2V4.8L12.8 12h1.4zM9.8 0l.2.2.2-.2h-.4zm-4 0L10 4.2 14.2 0h-1.4L10 2.8 7.2 0H5.8z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-  }
-  .call h1 {
+  h1 {
     color: rgb(64, 220, 21);
   }
   .call p {
+    font-size: 20px;
+    margin: 5px;
+    margin-bottom: 70px;
     color: white;
   }
   .call a {
+    background-color: rgb(64, 220, 21);
+    width: 10px;
     color: white;
-    margin-bottom: 200px;
-    margin: 75px;
+    margin: 10px;
+    padding: 5px 20px;
+  }
+  .call a:hover {
+    background-color: #222;
+    text-shadow: 2px solid green;
+    border: 2px solid green;
   }
   .logonav {
     margin-left: -20px;
@@ -1021,12 +1035,13 @@ a {
     margin-right: 4px;
   }
   .mapa {
-    margin-top: -620px;
+    margin-top: -600px;
     margin-left: 35px;
   }
   .fon3 {
     width: 100%;
     height: 100vh;
+    background-position: cover;
   }
   .imagesnleft {
     background-size: cover;
