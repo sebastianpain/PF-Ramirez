@@ -236,54 +236,53 @@ h5 {
     display: flex;
 }
 
+
 .nleft {
-    height: 250px;
-    width: 150px;
+    width: 20px;
+    height: 10px;
     background-image: url(../images/guitars.jpg);
     background-size: cover;
     background-position: center;
-    padding: 130px;
-    margin: 130px;
+    padding: 30px;
+    margin: 20px;
     border-radius: 900%;
 }
 
-.nright h3 {
+.nright {
     color: $color6;
     font-family: $fontfamily2;
     margin-bottom: 20px;
     margin: 1px;
     text-align: left;
-}
-
-.nright {
-    height: 100%;
-    width: 100%;
-    margin: 20px;
+    height: 10px;
+    
+    
 }
 
 .nright p {
     color: $color8;
-    text-align: left;
-    margin: 20px;
+    
+    
 }
 
 .sec_sec {
     height: 550px;
     width: 100%;
-    
     display: flex;
+    
 }
 
 .nleft2 {
-    height: 250px;
-    width: 150px;
+    height: 10px;
+    width: 20px;
     background-image: url(../images/amek.jpg);
     background-size: cover;
     background-position: center;
-    padding: 130px;
-    margin: 130px;
-    margin-top: 20px;
+    padding: 30px;
+    margin: 20px;
+   
     border-radius: 900%;
+
 }
 
 .imagesnleft {
@@ -387,15 +386,9 @@ h5 {
     background-image: url(../images/mic.jpg);
     background-size: cover;
 }
-.mapa{
-    margin-top: 200px;
-    margin-left: 400px;
-    
-    
-  
-    
-    
-}
+
+
+
 .fon3 {
     background-image: url(../images/polvo.jpg);
     background-size: cover;
@@ -404,13 +397,16 @@ h5 {
 }
 
 .form {
-    width: 100px;
-    height: 200px;
+    
+    height: 40px;
     margin: 20px;
     margin-left: 30px;
-    margin-top: -10px;
+    margin: 20px;
 }
-
+.mapa{
+    margin-top: 350px;
+    margin-left: 30px;
+}
 
 .form label {
     color: rgb(60, 255, 0);
@@ -421,8 +417,8 @@ a {
     margin: 20px
 }
 .subir {
-    height: 40px;
-    width: 40px;
+    height: 10px;
+    width: 10px;
     padding: 2%;
     background-color: $color3;
     border: 5px solid $color4;
@@ -462,806 +458,181 @@ a {
 }
 
 /*querrys*/
-@media only screen and (max-width:1290px) {
 
-.imagesContenedor {
-    display: grid;
-    height: 100px;
-    width: 100px;
+@media only screen and (min-width:320px) and (max-width:480px) {
+
+
+    .navbar {
+    background-color: $color8;
+    color: $color7;
+    float: left;
+    width: 100%;
+    height: 100%;
+    }
+    .nav-link{
+    display:flex;
+    color: $color7;
+    font-family: $fontfamily2;
+    text-shadow: 0 0 7px $color3;
+    }
+    .logonav {
+    width: 40px;
+    height: 40px;
+    margin: 12px;
+    }
+    
+    
+    .form {
+    height:100%;
+    width: auto;
     margin: 20px;
-    grid-template-columns: repeat(3 1fr);
-    grid-template-rows: 2fr;
+    margin-right: 700px;
+    margin-top: 110px;
+    }
+    
+    .form label {
+    text-shadow: 0 0 5px rgb(26, 25, 25);
+    
+    }
+    
+    .tablecel {
+    margin-right: 65px;
+    }
+    
+    .video {
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    margin: 2px;
+    margin-right: 200px;
+    margin-top: 150px;
+    padding: 10px;
+    }
+    h1 {
+    color:$color3;
+    }
+    .call {
+    color: $color3;
+    font-family: $fontfamily1;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    float: left;
+    background-color: rgba(2, 2, 2, 0.5098039216);
+    padding: 20px;
+    text-shadow: 0 0 5px $color7;
+    border: 2px solid $color3;
+    margin: 18px;
+    background-color: #020202;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='12' viewBox='0 0 20 12'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='charlie-brown' fill='%23310a6f' fill-opacity='0.4'%3E%3Cpath d='M9.8 12L0 2.2V.8l10 10 10-10v1.4L10.2 12h-.4zm-4 0L0 6.2V4.8L7.2 12H5.8zm8.4 0L20 6.2V4.8L12.8 12h1.4zM9.8 0l.2.2.2-.2h-.4zm-4 0L10 4.2 14.2 0h-1.4L10 2.8 7.2 0H5.8z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    }
+    .call p {
+    font-size: 20px;
+    margin: 5px;
+    margin-bottom: 70px;
+    color:$color7;
+    }
+    .call a {
+    background-color: rgb(64, 220, 21);
+    width: 10px;
+    color: white;
+    margin: 10px;
+    padding: 5px 20px;
+    }
+    .call a:hover {
+    background-color: #222;
+    text-shadow: 2px solid $color4;
+    border: 2px solid $color4;
+    }
+    .logonav{
+    margin-left: -20px;
+    }
+    .subir {
+        height: 40px;
+        width: 40px;
+        padding: 2%;
+        background-color: $color3;
+        border: 5px solid $color4;
+        position: fixed;
+        
+        color: $color3;
+        text-align: center;
+        font-size: 15px;
+        line-height: 15px;
+        border-radius: 100%;
+        box-shadow: 0 0 15px $color3;
+        z-index: 10;
+        margin-left: 40px;
+    }
+    
+    .fon3{
+    width: 100%;
+    height: 100vh;
+    background-position: cover;
+    }
+    .imagesnleft{
+    background-size:cover;
+    }
+    .imagesContenedor {
+    display: grid;
+    height: auto;
+    width: 100%;
+    margin: 20px;
+    grid-template-columns: repeat(1 1fr);
+    grid-template-rows: 1fr;
     grid-template-areas:
-        "item1 item2 item3"
-        "item4 item5 item6";
-    margin-left: 150px;
-    margin-bottom: 300px;
+    "item1"
+    "item2"
+    "item3"
+    "item4"
+    "item5"
+    "item6";
+    margin-left: 20px;
     grid-gap: 4px;
-
-}
-
-.item {
+    }
+    .item {
     border: solid rgba(20, 205, 45, 0.499);
     margin: 2px;
     animation-name: efecto;
     animation-iteration-count: 2;
     animation-timing-function: ease-in;
     animation-duration: 5s;
-}
-
-.item1 {
-    @include medidas(180px, 180px);
+    }
+    .item1 {
+    @include medidas(240px, 250px);
     grid-area: item1;
     background-image: url(../images/headphones.jpg);
     justify-content: left;
     background-size: cover;
-}
-
-.item2 {
-    @include medidas(180px, 180px);
+    }
+    .item2 {
+    @include medidas(240px, 250px);
     grid-area: item2;
     background-image: url(../images/studio1.jpg);
     background-size: cover;
-}
-
-.item3 {
-    @include medidas(180px, 180px);
+    }
+    .item3 {
+    @include medidas(240px, 250px);
     grid-area: item3;
     background-image: url(../images/studio.jpg);
     background-size: cover;
     background-position: left;
-
-}
-
-.item4 {
-    @include medidas(180px, 180px);
+    }
+    .item4 {
+    @include medidas(240px, 250px);
     grid-area: item4;
     background-image: url(../images/studio2.jpg);
     background-size: cover;
-}
-
-.item5 {
-    @include medidas(180px, 180px);
+    }
+    .item5 {
+    @include medidas(240px, 250px);
     grid-area: item5;
     background-image: url(../images/yamaha.jpg);
     background-size: cover;
-}
-
-.item6 {
-    @include medidas(180px, 180px);
+    }
+    .item6 {
+    @include medidas(240px, 250px);
     grid-area: item6;
     background-image: url(../images/mic.jpg);
     background-size: cover;
-}
-
-}
-
-@media only screen and (max-width:1290px) {
-    .video {
-        margin-left: 220px;
-    }
-
-    .imagesContenedor {
-        display: grid;
-        height: 100%;
-        width: 100px;
-        margin: 20px;
-        margin-top: 100px;
-        grid-template-columns: repeat(3 1fr);
-        grid-template-rows: 2fr;
-        grid-template-areas:
-            "item1 item2 item3"
-            "item4 item5 item6";
-        margin-left: 300px;
-        grid-gap: 4px;
-
-    }
-
-    .item {
-        border: solid rgba(20, 205, 45, 0.499);
-        margin: 2px;
-        animation-name: efecto;
-        animation-iteration-count: 2;
-        animation-timing-function: ease-in;
-        animation-duration: 5s;
-    }
-
-    .item1 {
-        @include medidas(220px, 220px);
-        grid-area: item1;
-        background-image: url(../images/headphones.jpg);
-        justify-content: left;
-        background-size: cover;
-    }
-
-    .item2 {
-        @include medidas(220px, 220px);
-        grid-area: item2;
-        background-image: url(../images/studio1.jpg);
-        background-size: cover;
-    }
-
-    .item3 {
-        @include medidas(220px, 220px);
-        grid-area: item3;
-        background-image: url(../images/studio.jpg);
-        background-size: cover;
-        background-position: left;
-
-    }
-
-    .item4 {
-        @include medidas(220px, 220px);
-        grid-area: item4;
-        background-image: url(../images/studio2.jpg);
-        background-size: cover;
-    }
-
-    .item5 {
-        @include medidas(220px, 220px);
-        grid-area: item5;
-        background-image: url(../images/yamaha.jpg);
-        background-size: cover;
-    }
-
-    .item6 {
-        @include medidas(220px, 220px);
-        grid-area: item6;
-        background-image: url(../images/mic.jpg);
-        background-size: cover;
-    }
-
-}
-
-    @media only screen and (max-width:1172px) {
-        .mapa {
-            margin-left: 350px;
-            margin-top: -200px;
-        }
-
-        .imagesContenedor {
-            display: grid;
-            height: 300px;
-            width: 300px;
-            margin: 20px;
-            grid-template-columns: repeat(3 1fr);
-            grid-template-rows: 2fr;
-            grid-template-areas:
-                "item1 item2 item3"
-                "item4 item5 item6";
-            margin-left: 350px;
-            grid-gap: 4px;
-
-        }
-
-        .item {
-            border: solid rgba(20, 205, 45, 0.499);
-            margin: 2px;
-            animation-name: efecto;
-            animation-iteration-count: 2;
-            animation-timing-function: ease-in;
-            animation-duration: 5s;
-        }
-
-        .item1 {
-            @include medidas(120px, 120px);
-            grid-area: item1;
-            background-image: url(../images/headphones.jpg);
-            justify-content: left;
-            background-size: cover;
-        }
-
-        .item2 {
-            @include medidas(120px, 120px);
-            grid-area: item2;
-            background-image: url(../images/studio1.jpg);
-            background-size: cover;
-        }
-
-        .item3 {
-            @include medidas(120px, 120px);
-            grid-area: item3;
-            background-image: url(../images/studio.jpg);
-            background-size: cover;
-            background-position: left;
-
-        }
-
-        .item4 {
-            @include medidas(120px, 120px);
-            grid-area: item4;
-            background-image: url(../images/studio2.jpg);
-            background-size: cover;
-        }
-
-        .item5 {
-            @include medidas(120px, 120px);
-            grid-area: item5;
-            background-image: url(../images/yamaha.jpg);
-            background-size: cover;
-        }
-
-        .item6 {
-            @include medidas(120px, 120px);
-            grid-area: item6;
-            background-image: url(../images/mic.jpg);
-            background-size: cover;
-        }
-
-
-    }
-
-
-        @media only screen and (max-width:1024px) {
-            .video {
-                margin-left: 80px;
-            }
-
-
-
-
-            .form {
-                width: 200px;
-                height: 300px;
-                margin: 20px;
-                margin-left: 30px;
-                margin-top: 100px;
-            }
-
-            .imagesContenedor {
-                display: grid;
-                height: 300px;
-                width: 300px;
-                margin: 20px;
-                grid-template-columns: repeat(3 1fr);
-                grid-template-rows: 2fr;
-                grid-template-areas:
-                    "item1 item2 item3"
-                    "item4 item5 item6";
-                margin-left: 350px;
-                grid-gap: 4px;
-
-            }
-
-            .item {
-                border: solid rgba(20, 205, 45, 0.499);
-                margin: 2px;
-                animation-name: efecto;
-                animation-iteration-count: 2;
-                animation-timing-function: ease-in;
-                animation-duration: 5s;
-            }
-
-            .item1 {
-                @include medidas(120px, 120px);
-                grid-area: item1;
-                background-image: url(../images/headphones.jpg);
-                justify-content: left;
-                background-size: cover;
-            }
-
-            .item2 {
-                @include medidas(120px, 120px);
-                grid-area: item2;
-                background-image: url(../images/studio1.jpg);
-                background-size: cover;
-            }
-
-            .item3 {
-                @include medidas(120px, 120px);
-                grid-area: item3;
-                background-image: url(../images/studio.jpg);
-                background-size: cover;
-                background-position: left;
-
-            }
-
-            .item4 {
-                @include medidas(120px, 120px);
-                grid-area: item4;
-                background-image: url(../images/studio2.jpg);
-                background-size: cover;
-            }
-
-            .item5 {
-                @include medidas(120px, 120px);
-                grid-area: item5;
-                background-image: url(../images/yamaha.jpg);
-                background-size: cover;
-            }
-
-            .item6 {
-                @include medidas(120px, 120px);
-                grid-area: item6;
-                background-image: url(../images/mic.jpg);
-                background-size: cover;
-            }
-        }
-
-
-        @media only screen and (min-width:900px) {
-            .video {
-                margin-left: 20px;
-            }
-
-            .imagesContenedor {
-                display: grid;
-                height: 300px;
-                width: 300px;
-                margin: 20px;
-                grid-template-columns: repeat(3 1fr);
-                grid-template-rows: 2fr;
-                grid-template-areas:
-                    "item1 item2 item3"
-                    "item4 item5 item6";
-                margin-left: 100px;
-                grid-gap: 4px;
-
-            }
-            
-            .item {
-                border: solid rgba(20, 205, 45, 0.499);
-                margin: 2px;
-                animation-name: efecto;
-                animation-iteration-count: 2;
-                animation-timing-function: ease-in;
-                animation-duration: 5s;
-            }
-
-            .item1 {
-                @include medidas(120px, 120px);
-                grid-area: item1;
-                background-image: url(../images/headphones.jpg);
-                justify-content: left;
-                background-size: cover;
-            }
-
-            .item2 {
-                @include medidas(120px, 120px);
-                grid-area: item2;
-                background-image: url(../images/studio1.jpg);
-                background-size: cover;
-            }
-
-            .item3 {
-                @include medidas(120px, 120px);
-                grid-area: item3;
-                background-image: url(../images/studio.jpg);
-                background-size: cover;
-                background-position: left;
-
-            }
-
-            .item4 {
-                @include medidas(120px, 120px);
-                grid-area: item4;
-                background-image: url(../images/studio2.jpg);
-                background-size: cover;
-            }
-
-            .item5 {
-                @include medidas(120px, 120px);
-                grid-area: item5;
-                background-image: url(../images/yamaha.jpg);
-                background-size: cover;
-            }
-
-            .item6 {
-                @include medidas(120px, 120px);
-                grid-area: item6;
-                background-image: url(../images/mic.jpg);
-                background-size: cover;
-            }
-
-
-            .nleft {
-                width: 60px;
-                height: 100px;
-                margin: 20px;
-                padding: 50px;
-            }
-
-            .nright {
-                margin: 20px;
-            }
-
-            .nright p {
-                margin: 2px;
-            }
-
-            .sec {
-                margin-left: 2px;
-            }
-
-            .nleft2 {
-                width: 60px;
-                height: 100px;
-                margin: 20px;
-                padding: 50px;
-            }
-
-            .nright2 {
-                margin: 20px;
-            }
-
-            .nright2 p {
-                margin: 1px;
-            }
-        
-
-        .imagesnleft {
-            width: 100%;
-            height: 790px;
-            background-size: cover;
-            background-position: left;
-        }
-
-        .barra {
-            float: none;
-        }
-.form{
-    display:inline-block;
-    margin-top: 100px;
-}
-        .mapa {
-            margin-top: -300px;
-            margin-left: 600px;
     }
 }
-@media only screen and (min-width:850px) {
-.mapa{
-    margin-left:300px;
-    margin-top:50px;
-}
-
-}
-      @media only screen and (min-width:600px){
-            main {
-                height: 100vh;
-                width: 100%;
-                background-image: url(../images/studio2.jpg);
-                background-position: left;
-                background-size: cover;
-            }
-
-            .video {
-                width: 65vh;
-                height: 450px;
-                margin: 2px;
-                background-position: cover;
-            }
-
-            
-
-
-            h1 {
-                color: $color3;
-            }
-            .call {
-                color: $color3;
-                font-family: $fontfamily1;
-                font-size: 16px;
-                letter-spacing: 0.5px;
-                float: left;
-                background-color: rgba(2, 2, 2, 0.5098039216);
-                padding: 20px;
-                text-shadow: 0 0 5px $color7;
-                border: 2px solid $color3;
-                margin: 18px;
-                
-                background-color: #020202;
-                background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='12' viewBox='0 0 20 12'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='charlie-brown' fill='%23310a6f' fill-opacity='0.4'%3E%3Cpath d='M9.8 12L0 2.2V.8l10 10 10-10v1.4L10.2 12h-.4zm-4 0L0 6.2V4.8L7.2 12H5.8zm8.4 0L20 6.2V4.8L12.8 12h1.4zM9.8 0l.2.2.2-.2h-.4zm-4 0L10 4.2 14.2 0h-1.4L10 2.8 7.2 0H5.8z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-            }
-            .call p {
-                font-size: 20px;
-                margin: 5px;
-                margin-bottom: 70px;
-                color:$color7;
-            }
-
-            .call a {
-                background-color: $color3;
-                color: $color7;
-                text-decoration: none;
-                padding: 10px 10px;
-                margin-right: 50px;
-
-            }
-
-            .call a:hover {
-                background-color: #222;
-                text-shadow: 2px solid $color4;
-                border: 2px solid $color4;
-
-            }
-
-
-            .sec {
-                display: inline;
-            }
-
-            .nleft {
-                height: 0px;
-                width: 0px;
-                background-size: cover;
-                background-position: center;
-                padding: 30px;
-                margin: 30px;
-
-                border-radius: 100%;
-            }
-
-            .nright {
-                display: inline;
-                margin: 20px;
-            }
-
-            .nright p {
-                margin: 20px;
-            }
-
-
-            .sec_sec {
-                display: inline;
-            }
-
-            .nleft2 {
-
-                height: 0px;
-                width: 0px;
-                background-image: url(../images/amek.jpg);
-                background-size: cover;
-                background-position: center;
-                padding: 30px;
-                margin: 30px;
-                margin-top: 2px;
-                border-radius: 100%;
-            }
-
-            .nright2 {
-                display: inline;
-                margin: 20px;
-            }
-
-            .nright2 p {
-                margin: 20px;
-            }
-
-            
-
-
-
-            main {
-                height: 100vh;
-                width: 100%;
-                background-image: url(../images/studio2.jpg);
-                background-position: left;
-                background-size:cover;
-            }
-            .mapa{
-                
-                margin-top: -420px;
-                margin-left: 300px;
-            }
-            .tablecel {
-                margin-left: 70px;
-
-            }
-
-            .titulo2 {
-                margin: 20px;
-
-            }
-            .form{
-                margin-top: 10px;
-            }
-        }
-
-            @media only screen and (max-width:320px) {
-
-
-                .navbar {
-                    background-color: $color8;
-                    color: $color7;
-                    float: left;
-                    width: 100%;
-                    height: 100%;
-                
-                }
-                .nav-link{
-                    display:flex;
-                    color: $color7;
-                    font-family: $fontfamily2;
-                    text-shadow: 0 0 7px $color3;
-                    
-                }
-                
-                .logonav {
-                    width: 40px;
-                    height: 40px;
-                    margin: 12px;
-                }
-
-
-                .form {
-                    height:100%;
-                    width: auto;
-                    margin: 20px;
-                    margin-right: 700px;
-                    margin-top: -10px;
-                }
-
-                .form label {
-                    text-shadow: 0 0 5px rgb(26, 25, 25);
-                }
-
-                .tablecel {
-                    margin-right: 65px;
-                }
-
-                .video {
-                    background-size: cover;
-                    width: 100%;
-                    height: 500px;
-                    margin: 2px;
-                    margin-right: 200px;
-                    margin-top: 150px;
-                    padding: 10px;
-                }
-                
-                    
-                    h1 {
-                        color:$color3;
-                    }
-                    .call {
-                        color: $color3;
-                        font-family: $fontfamily1;
-                        font-size: 16px;
-                        letter-spacing: 0.5px;
-                        float: left;
-                        background-color: rgba(2, 2, 2, 0.5098039216);
-                        padding: 20px;
-                        text-shadow: 0 0 5px $color7;
-                        border: 2px solid $color3;
-                        margin: 18px;
-                        
-                        background-color: #020202;
-                        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='12' viewBox='0 0 20 12'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='charlie-brown' fill='%23310a6f' fill-opacity='0.4'%3E%3Cpath d='M9.8 12L0 2.2V.8l10 10 10-10v1.4L10.2 12h-.4zm-4 0L0 6.2V4.8L7.2 12H5.8zm8.4 0L20 6.2V4.8L12.8 12h1.4zM9.8 0l.2.2.2-.2h-.4zm-4 0L10 4.2 14.2 0h-1.4L10 2.8 7.2 0H5.8z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-                    }
-                    .call p {
-                        font-size: 20px;
-                        margin: 5px;
-                        margin-bottom: 70px;
-                        color:$color7;
-                    }
-        
-                    .call a {
-                        background-color: rgb(64, 220, 21);
-                        width: 10px;
-                        color: white;
-                        margin: 10px;
-                        padding: 5px 20px;
-        
-                    }
-        
-                    .call a:hover {
-                        background-color: #222;
-                        text-shadow: 2px solid $color4;
-                        border: 2px solid $color4;
-        
-                    }
-                .logonav{
-                    margin-left: -20px;
-                }
-                .subir {
-                    height: 40px;
-                    width: 40px;
-                    padding: 2%;
-                    background-color: $color3;
-                    border: 5px solid $color4;
-                    position: fixed;
-                    right: 20px;
-                    bottom: 20px;
-                    color: $color3;
-                    text-align: center;
-                    font-size: 15px;
-                    line-height: 15px;
-                    border-radius: 100%;
-                    box-shadow: 0 0 15px $color3;
-                    z-index: 10;
-                    margin-right: 4px;
-                }
-                .mapa{
-                    
-                    margin-top: -480px;
-
-                    margin-left:20px;
-                    
-                        
-                    }
-                .fon3{
-                    width: 100%;
-                    height: 100vh;
-                    background-position: cover;
-                }
-              
-                .imagesnleft{
-                    background-size:cover;
-                }
-                .imagesContenedor {
-                    display: grid;
-                    height: auto;
-                    width: 100%;
-                    margin: 20px;
-                    grid-template-columns: repeat(1 1fr);
-                    grid-template-rows: 1fr;
-                    grid-template-areas:
-                        "item1"
-                        "item2" 
-                        "item3"
-                        "item4" 
-                        "item5"
-                        "item6";
-                    margin-left: 20px;
-                    grid-gap: 4px;
-                    
-                    
-    
-                }
-                
-                .item {
-                    
-                    border: solid rgba(20, 205, 45, 0.499);
-                    margin: 2px;
-                    animation-name: efecto;
-                    animation-iteration-count: 2;
-                    animation-timing-function: ease-in;
-                    animation-duration: 5s;
-                }
-    
-                .item1 {
-                    @include medidas(240px, 250px);
-                    grid-area: item1;
-                    background-image: url(../images/headphones.jpg);
-                    justify-content: left;
-                    background-size: cover;
-                }
-    
-                .item2 {
-                    @include medidas(240px, 250px);
-                    grid-area: item2;
-                    background-image: url(../images/studio1.jpg);
-                    background-size: cover;
-                }
-    
-                .item3 {
-                    @include medidas(240px, 250px);
-                    grid-area: item3;
-                    background-image: url(../images/studio.jpg);
-                    background-size: cover;
-                    background-position: left;
-    
-                }
-    
-                .item4 {
-                    @include medidas(240px, 250px);
-                    grid-area: item4;
-                    background-image: url(../images/studio2.jpg);
-                    background-size: cover;
-                }
-    
-                .item5 {
-                    @include medidas(240px, 250px);
-                    grid-area: item5;
-                    background-image: url(../images/yamaha.jpg);
-                    background-size: cover;
-                }
-    
-                .item6 {
-                    @include medidas(240px, 250px);
-                    grid-area: item6;
-                    background-image: url(../images/mic.jpg);
-                    background-size: cover;
-                }
-            }
-        
