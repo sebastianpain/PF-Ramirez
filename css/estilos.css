@@ -239,6 +239,13 @@ footer {
     height: 40px;
     margin: 12px;
   }
+  main {
+    height: 100vh;
+    width: auto;
+    background-image: url(../images/studio2.jpg);
+    background-position: left;
+    background-size: cover;
+  }
   .foto1 {
     display: flex;
     width: auto;
