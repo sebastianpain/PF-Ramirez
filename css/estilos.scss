@@ -80,7 +80,9 @@ $hitem:100px;
 p {
     margin: 20px;
 }
-
+a{
+    color: $color3;
+}
 main {
     height: 100vh;
     width: 100%;
@@ -95,9 +97,10 @@ main {
     width: 100%;
 }
 .fon3{
-    background-image: url(../images/polvo);
+    background-image: url(../images/polvo.jpg);
     height: 100%;
     width: 100%;
+    background-size: cover;
 }
 
 .subir {
@@ -225,7 +228,11 @@ table td {
     color: $color1;
     padding: 0%;
 }
-
+.inspira{
+    color:$color8;
+    margin:20px;
+    
+}
 footer {
     color: rgb(64, 242, 9);
     background-color: rgb(0, 0, 0);
@@ -246,6 +253,98 @@ footer {
     align-content: space-evenly;
     padding: 10px;
 }
+.video {
+    display:flex;
+    width: 100%;
+    height: 500px;
+    margin: 20px;
+    margin-left: 4px;
+    margin-top: 27px;
+}
+.imagesContenedor{
+    height: auto;
+    width: 100%;
+    background-image: url(../images/galaxy.jpg);
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);/* 4 columnas de 1 fr - EL REPEAT SIEMPRE PEGADO AL () */
+    grid-template-rows: repeat(3, 200px);/* 3 filas , de 200px*/
+    grid-template-areas: "item1 item2 item3 item3"
+                         "item1 item4 item5 item6"
+                         "item7 item4 item8 item8";
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.item{
+
+    border: 2px solid $color7;
+    border-radius: 20px;
+}
+
+.item1{
+    grid-area: item1;
+    background-image: url(../images/maquina.jpg);
+    background-size: contain;
+    background-position:center;
+}
+
+.item2{
+    grid-area: item2;
+    background-image: url(../images/studio2.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.item3{
+    grid-area: item3;
+    background-image: url(../images/mic.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.item4{
+    grid-area: item4;
+    background-image: url(../images/yamaha.jpg);
+    background-size: cover;
+    background-position: center;
+    width: -200px;
+    height: 200px;
+}
+
+.item5{
+    grid-area: item5;
+    background-image: url(../images/amek.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.item6{
+    grid-area: item6;
+    background-image: url(../images/studio.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item7{
+    grid-area: item7;
+    background-image: url(../images/studio2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item8{
+    grid-area: item8;
+    background-image: url(../images/yamaha.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
     
     
     @media only screen and (max-width:320px) {
@@ -295,12 +394,19 @@ footer {
         border: 1px solid rgb(64, 220, 21);
     }
     .form {
+    color: $color3;
     height:100%;
     width: auto;
     margin: 20px;
     margin-right: 700px;
     margin-top: -10px;
     }
+    .form input{
+        width: 100px;
+        color:$color7;
+        background-color:$color8;
+        
+    } 
     
     .form label {
     text-shadow: 0 0 5px rgb(26, 25, 25);
@@ -311,13 +417,12 @@ footer {
     }
     
     .video {
-    background-size: cover;
-    width: 100%;
-    height: 500px;
-    margin: 2px;
-    margin-right: 200px;
-    margin-top: 150px;
-    padding: 10px;
+        display:flex;
+        width: 100%;
+        /* height: auto; */
+        margin: 20px;
+        margin-left: 4px;
+        margin-top: 27px;
     }
     h1 {
     color:$color3;
@@ -386,67 +491,83 @@ footer {
     .imagesnleft{
     background-size:cover;
     }
-    .imagesContenedor {
-    display: grid;
-    height: auto;
-    width: 100%;
-    margin: 20px;
-    grid-template-columns: repeat(1 1fr);
-    grid-template-rows: 1fr;
-    grid-template-areas:
-    "item1"
-    "item2"
-    "item3"
-    "item4"
-    "item5"
-    "item6";
-    margin-left: 20px;
-    grid-gap: 4px;
+    .imagesContenedor{
+        height: auto;
+        width: 100%;
+        background-color:$color3;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);/* 4 columnas de 1 fr - EL REPEAT SIEMPRE PEGADO AL () */
+        grid-template-rows: repeat(3, 200px);/* 3 filas , de 200px*/
+        grid-template-areas: "item1 item2 item3 item3"
+                             "item1 item4 item5 item6"
+                             "item7 item4 item8 item8";
+        grid-gap: 20px;
+        padding: 20px;
     }
-    .item {
-    border: solid rgba(20, 205, 45, 0.499);
-    margin: 2px;
-    animation-name: efecto;
-    animation-iteration-count: 2;
-    animation-timing-function: ease-in;
-    animation-duration: 5s;
+    
+    .item{
+        background-color: tomato;
+        border: 2px solid #fff;
+        border-radius: 8px;
     }
-    .item1 {
-    @include medidas(240px, 250px);
-    grid-area: item1;
-    background-image: url(../images/headphones.jpg);
-    justify-content: left;
-    background-size: cover;
+    
+    .item1{
+        grid-area: item1;
+        background-image: url(../images/maquina.jpg);
+        background-size: cover;
+        background-position: center;
     }
-    .item2 {
-    @include medidas(240px, 250px);
-    grid-area: item2;
-    background-image: url(../images/studio1.jpg);
-    background-size: cover;
+    
+    .item2{
+        grid-area: item2;
+        background-image: url(../images/studio2.jpg);
+        background-size: cover;
+        background-position: center;
+        
     }
-    .item3 {
-    @include medidas(240px, 250px);
-    grid-area: item3;
-    background-image: url(../images/studio.jpg);
-    background-size: cover;
-    background-position: left;
+    
+    .item3{
+        grid-area: item3;
+        background-image: url(../images/mic.jpg);
+        background-size: cover;
+        background-position: center;
+        
     }
-    .item4 {
-    @include medidas(240px, 250px);
-    grid-area: item4;
-    background-image: url(../images/studio2.jpg);
-    background-size: cover;
+    
+    .item4{
+        grid-area: item4;
+        background-image: url(../images/yamaha.jpg);
+        background-size: cover;
+        background-position: center;
     }
-    .item5 {
-    @include medidas(240px, 250px);
-    grid-area: item5;
-    background-image: url(../images/yamaha.jpg);
-    background-size: cover;
+    
+    .item5{
+        grid-area: item5;
+        background-image: url(../images/amek.jpg);
+        background-size: cover;
+        background-position: center;
+        
     }
-    .item6 {
-    @include medidas(240px, 250px);
-    grid-area: item6;
-    background-image: url(../images/mic.jpg);
-    background-size: cover;
+    
+    .item6{
+        grid-area: item6;
+        background-image: url(../images/studio.jpg);
+        background-size: cover;
+        background-position: center;
     }
+    
+    .item7{
+        grid-area: item7;
+        background-image: url(../images/studio2.jpg);
+        background-size: cover;
+        background-position: center;
     }
+    
+    .item8{
+        grid-area: item8;
+        background-image: url(../images/yamaha.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    
+}
