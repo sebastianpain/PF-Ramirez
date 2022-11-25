@@ -163,9 +163,46 @@ h5 {
   border: 1px solid rgb(64, 220, 21);
 }
 
+.foto3 {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  background-image: url(../images/foto3.jpg);
+  background-size: cover;
+  border: 1px solid rgb(64, 220, 21);
+}
+
+.foto4 {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  background-image: url(../images/foto4.jpg);
+  background-size: cover;
+  border: 1px solid rgb(64, 220, 21);
+}
+
 /*index arriba / sobre nosotros abajo y servicios*/
 .caja {
   padding: 2px;
+}
+
+.form {
+  color: rgb(64, 220, 21);
+  height: 100%;
+  width: auto;
+  margin: 20px;
+  margin-right: 700px;
+  margin-top: -10px;
+}
+
+.form input {
+  width: 100px;
+  color: white;
+  background-color: black;
+}
+
+.form label {
+  text-shadow: 0 0 5px rgb(26, 25, 25);
 }
 
 .caja p {
@@ -209,7 +246,7 @@ table td {
   margin: 20px;
 }
 
-.inspira p {
+.inspira strong {
   color: rgb(64, 220, 21);
   margin-top: -20px;
 }
@@ -246,7 +283,7 @@ footer {
 
 .fondog {
   background-image: url(../images/galaxy.jpg);
-  background-position: cover;
+  background-size: cover;
 }
 
 .imagesContenedor {
@@ -321,7 +358,7 @@ footer {
 
 .item8 {
   grid-area: item8;
-  background-image: url(../images/yamaha.jpg);
+  background-image: url(../images/home1.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -364,6 +401,21 @@ footer {
     width: 100%;
     height: 500px;
     background-image: url(../images/foto2.jpg);
+    background-size: cover;
+    border: 1px solid rgb(64, 220, 21);
+  }
+  .foto3 {
+    display: flex;
+    width: auto;
+    background-image: url(../images/foto3.jpg);
+    background-size: cover;
+    border: 1px solid rgb(64, 220, 21);
+  }
+  .foto4 {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/foto4.jpg);
     background-size: cover;
     border: 1px solid rgb(64, 220, 21);
   }
