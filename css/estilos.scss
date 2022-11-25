@@ -124,7 +124,7 @@ main {
     border-radius: 100%;
     box-shadow: 0 0 15px $color3;
     z-index: 10;
-    margin-right: 15px;
+    margin-right: 35px;
 }
 
 .call {
@@ -839,21 +839,20 @@ footer {
     .subir {
         height: 40px;
         width: 40px;
-        padding: 2%;
-        background-color: $color3;
-        border: 5px solid $color4;
+        padding: 5px;
+        background-color: rgba(64, 220, 21, 0.516);
+        border: 5px solid green;
         position: fixed;
         right: 20px;
-        bottom: 20px;
-        color: $color3;
+        bottom: 40px;
+        color: rgb(64, 220, 21);
         text-align: center;
         font-size: 15px;
-        line-height: 15px;
+        margin-bottom: 80px;
         border-radius: 100%;
-        box-shadow: 0 0 15px $color3;
+        box-shadow: 0 0 15px rgb(64, 220, 21);
         z-index: 10;
-        margin-right: -4px;
-
+        margin-right: 15px;
     }
 
     .fon3 {
