@@ -189,7 +189,7 @@ h5 {
 .form {
   color: rgb(64, 220, 21);
   height: 100%;
-  width: auto;
+  width: 100%;
   margin: 20px;
   margin-right: 700px;
   margin-top: -10px;
@@ -433,7 +433,6 @@ footer {
     margin-top: -10px;
   }
   .form input {
-    width: 100px;
     color: white;
     background-color: black;
   }
@@ -675,7 +674,6 @@ footer {
     margin-top: -10px;
   }
   .form input {
-    width: 100px;
     color: white;
     background-color: black;
   }
