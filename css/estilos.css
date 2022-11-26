@@ -386,6 +386,7 @@ footer {
     width: 40px;
     height: 40px;
     margin: 40px;
+    margin-left: -4px;
   }
   main {
     height: 100vh;
@@ -626,7 +627,8 @@ footer {
   .logonav {
     width: 40px;
     height: 40px;
-    margin: 12px;
+    margin: 20px;
+    margin-left: -4px;
   }
   main {
     height: 100vh;
@@ -731,7 +733,7 @@ footer {
     border: 2px solid green;
   }
   .logonav {
-    margin-left: -20px;
+    margin-left: -4px;
   }
   .subir {
     height: 40px;
