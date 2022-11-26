@@ -490,6 +490,9 @@ footer {
     text-shadow: 2px solid green;
     border: 2px solid green;
   }
+  .logonav {
+    margin-left: -20px;
+  }
   .subir {
     height: 40px;
     width: 40px;
